@@ -2,6 +2,17 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Integrantes
+
+- Bruno, Tomas Lautaro - Matricula 31017
+- Favaro, Francisco Miguel - Matricula 31014
+- Martinez, Milagros - Matricula 30928
+- Pai, Agustin Nicolas - Matricula 30920
+
+## Listado de Features previstas y estado actual
+
+Pendiente a completar
+
 ## Get started
 
 1. Install dependencies
