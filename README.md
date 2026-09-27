@@ -9,9 +9,27 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 - Martinez, Milagros - Matricula 30928
 - Pai, Agustin Nicolas - Matricula 30920
 
+### Objetivo
+
+Desarrollar una aplicación móvil/web destinada a facilitar la **publicación y adopción responsable de perros en situación de calle o que necesitan un nuevo hogar**. La aplicación busca conectar a personas interesadas en adoptar con perros que se encuentran disponibles para adopción, proporcionando información relevante y un proceso de registro que permita evaluar las condiciones del futuro hogar.
+
 ## Listado de Features previstas y estado actual
 
-Pendiente a completar
+La aplicación contará con las siguientes funcionalidades principales:
+
+* **Pantalla de inicio:**: pantalla inicial de la app. (Completada)
+
+* **Registro de usuarios:** permitirá crear una cuenta para acceder a las funcionalidades de la aplicación. (Pendiente)
+
+* **Inicio de sesión:** permitirá a los usuarios registrados ingresar de forma segura a la plataforma.(Pendiente)
+* **Visualización de perros disponibles:** mostrará los perros que se encuentran actualmente en adopción, junto con su información relevante.(Listo)
+
+* **Formulario de adopción:** permitirá al usuario interesado completar informacion pasa solicitar la adopcion.(Pendiente)
+
+* **Publicación de perros:** permitirá registrar y publicar nuevos perros que se encuentren disponibles para adopción, incorporando sus datos y características.(Pendiente)
+
+* **Proceso orientado a la adopción responsable:** buscará facilitar que cada perro encuentre un hogar adecuado, teniendo en cuenta las condiciones proporcionadas por el potencial adoptante.(Pendiente)
+
 
 ## Get started
 

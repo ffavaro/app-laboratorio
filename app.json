@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "app-laboratorio",
-    "slug": "app-laboratorio",
+    "name": "Adoptame",
+    "slug": "Adoptame",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/tabIcons/image.png",
     "scheme": "applaboratorio",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -32,7 +32,9 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
