@@ -32,10 +32,11 @@ export type Dog = {
 type DogCardProps = {
   dog: Dog;
   onAdopt: (dog: Dog) => void; // función que se ejecuta al tocar el botón
+  solicitado?: boolean; // true si el usuario ya pidió adoptar a este perro
 };
 
 // 2. El componente recibe las props y devuelve la interfaz (JSX).
-export function DogCard({ dog, onAdopt }: DogCardProps) {
+export function DogCard({ dog, onAdopt, solicitado = false }: DogCardProps) {
   
   return (
     <ThemedView type="backgroundElement" style={styles.card}>
@@ -70,7 +71,9 @@ export function DogCard({ dog, onAdopt }: DogCardProps) {
         <Pressable
           onPress={() => onAdopt(dog)}
           style={({ pressed }) => [dog.size === 'Pequeño' ? styles.button : (dog.size === 'Mediano' ? styles.buttonSizeMedium : styles.buttonSizeLarge), pressed && styles.buttonPressed]}>
-          <ThemedText style={styles.buttonText}>Adoptame</ThemedText>
+          <ThemedText style={styles.buttonText}>
+            {solicitado ? 'Solicitud enviada ✓' : 'Adoptame'}
+          </ThemedText>
         </Pressable>
       </View>
     </ThemedView>

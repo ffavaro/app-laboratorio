@@ -30,6 +30,8 @@ La aplicación contará con las siguientes funcionalidades principales:
 
 * **Proceso orientado a la adopción responsable:** buscará facilitar que cada perro encuentre un hogar adecuado, teniendo en cuenta las condiciones proporcionadas por el potencial adoptante.(Pendiente)
 
+* **Manejo de estado y llamados al backend:** se incorporaron Zustand, para el estado de la aplicación, y TanStack Query, para los llamados al backend. (Listo)
+
 
 ## Get started
 
